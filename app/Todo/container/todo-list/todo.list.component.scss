@@ -1,0 +1,15 @@
+.status{
+  width:10px;
+  height:10px;
+  background:red;
+  float:left;
+  margin:8px 0px 7px 7px;
+  &.completed{
+    background:green
+  }
+
+  &.notcompleted{
+    background:blue;
+  }
+
+}
